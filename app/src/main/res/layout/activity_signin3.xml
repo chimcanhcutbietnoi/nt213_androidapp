@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    android:orientation="horizontal"
+    tools:context=".SigninActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <EditText
+                    android:id="@+id/signin_email"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/blue_border"
+                    android:drawableLeft="@drawable/baseline_email_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Email"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/signin_password"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/blue_border"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/signin_button"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/navy"
+                    android:text="Sign in"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/signinredirecttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="You are new? Sign up"
+                    android:textColor="@color/navy"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
