@@ -34,6 +34,7 @@ class SigninActivity : AppCompatActivity() {
                 if (checkCredentials == true){
                     Toast.makeText(this@SigninActivity, "Sign in successfully", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this@SigninActivity, MainActivity::class.java)
+                    intent.putExtra("UserName", email)
                     startActivity(intent)
                 } else {
                     Toast.makeText(this@SigninActivity, "Invalid Credentials", Toast.LENGTH_SHORT).show()

@@ -31,7 +31,8 @@
                 android:drawableLeft="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
                 android:hint="Email"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/signup_password"
@@ -43,7 +44,8 @@
                 android:drawablePadding="8dp"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/signup_confirm"
@@ -55,7 +57,8 @@
                 android:drawablePadding="8dp"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:textColor="@color/black"/>
 
             <Button
                 android:id="@+id/signup_button"
