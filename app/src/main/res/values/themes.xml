@@ -2,4 +2,5 @@
 <resources>
 
     <style name="Theme.LoginSqlite" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="AppTheme" parent="Theme.AppCompat"/>
 </resources>
